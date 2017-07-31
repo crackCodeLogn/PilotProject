@@ -24,5 +24,10 @@ public class MainActivity {
         //System.out.println("The number entered : "+n);
         if(isPrime(n)) System.out.println("Prime number");
         System.out.println("Not a prime number");
+
+        String data = Integer.toString(n);
+        String data2 = new StringBuffer(data).reverse().toString();
+        if(data.equals(data2)) System.out.println("Palindromic number!");
+        else System.out.println("Not a palindromic number!");
     }
 }
