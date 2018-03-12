@@ -16,6 +16,7 @@ public class MainActivity {
             }
         return isPrime;
     }
+
     public static void main(String[] args) {
         System.out.println("Marking the start of something new and interesting... Let's see how this goes and how far it trickles");
         Scanner in = new Scanner(System.in);
@@ -29,5 +30,7 @@ public class MainActivity {
         String data2 = new StringBuffer(data).reverse().toString();
         if(data.equals(data2)) System.out.println("Palindromic number!");
         else System.out.println("Not a palindromic number!");
+
+        System.out.println("THIRD level testing");
     }
 }
